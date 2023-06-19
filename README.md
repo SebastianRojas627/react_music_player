@@ -2,7 +2,7 @@
 
 ## Link del video:
 
-https://drive.google.com/drive/folders/1pbMvBBSJUFDY6cb83FDuGb6fG-uQYjN-?usp=sharing
+https://drive.google.com/drive/folders/1ypy9G0EjQBrCd-FpH-wv0mwlhqwNi97Z?usp=drive_link
 
 ## Requerimientos
 
