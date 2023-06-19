@@ -33,11 +33,6 @@ const StyledTableRow = styled(TableRow)(({ theme }) => ({
 
 export function SongList({ songs }) {
   const navigate = useNavigate();
-  const calculation = useMemo(() => songSum(songs), [songs]);
-
-  const songSum = (songs) => {
-    return songs.length;
-  };
 
   return (
     <TableContainer component={Paper}>
@@ -96,9 +91,6 @@ export function SongList({ songs }) {
           ))}
         </TableBody>
       </Table>
-      <Typography variant="body1" color="text.secondary" component="div">
-        {`Song coung is ${calculation}`}
-      </Typography>
     </TableContainer>
   );
 }
